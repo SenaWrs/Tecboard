@@ -19,10 +19,10 @@
     margin: 0;
     padding: 0;
 }
-
+/* Estilo do Desktop*/
 body {
-    background-color: #0E1014;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
     font-family: 'Poppins', sans-serif;
     font-size: 24pt;
     line-height: 1.5;
@@ -73,6 +73,7 @@ a {
 }
 a:hover {
     background-color: #8233e8;
+    
 }
 
 section img {
