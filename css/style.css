@@ -110,3 +110,23 @@ section img {
         height: 230px;
     }
 }
+/* Skip link visível só quando focado */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 8px;
+  padding: 10px 12px;
+  background: #fff;
+  color: #000;
+  z-index: 9999;
+}
+
+.skip-link:focus {
+  left: 8px;
+}
+
+/* Foco bem visível */
+:focus-visible {
+  outline: 3px solid #9747FF;
+  outline-offset: 4px;
+}
